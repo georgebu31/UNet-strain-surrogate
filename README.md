@@ -40,8 +40,6 @@ The repository is organized as a three-stage pipeline, plus standalone solver de
 └── .gitignore                     # Excludes generated data (*.npz) and model checkpoints (*.pth)
 ```
 
-Generated datasets (`*.npz`) and trained model checkpoints (`*.pth`) are not tracked in version control — regenerate them by running the notebooks in order (`01` → `02` → `03`).
-
 ## Requirements
 
 - Python 3.11
@@ -53,19 +51,6 @@ Install dependencies (adjust to your actual `requirements.txt`/environment):
 
 ```bash
 pip install numpy scipy torch jupyter
-```
-
-## Usage
-
-```bash
-# 1. Generate the training dataset
-jupyter nbconvert --to notebook --execute 01_generate_dataset.ipynb
-
-# 2. Train the surrogate model
-jupyter nbconvert --to notebook --execute 02_train_surrogate.ipynb
-
-# 3. Run topology optimization with the trained surrogate
-jupyter nbconvert --to notebook --execute 03_topology_optimization.ipynb
 ```
 
 Or simply open and run each notebook interactively in Jupyter.
