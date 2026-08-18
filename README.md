@@ -55,6 +55,6 @@ pip install numpy scipy torch jupyter
 
 Or simply open and run each notebook interactively in Jupyter.
 
-## License
+## Results
+Use "swg_256.npz" file to repeat the article results on the strain distibution, topology optimisation, exciton density. Use "gauss_field_swg.txt" to calculate the exciton density. Use "TE_field.txt" to calculate the overlap of the exciton density and TE mode field.
 
-Specify a license (e.g. MIT) if you intend to make this repository public.
