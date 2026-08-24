@@ -56,5 +56,8 @@ pip install numpy scipy torch jupyter
 Or simply open and run each notebook interactively in Jupyter.
 
 ## Results
-Use "swg_256.npz" file to repeat the article results on the strain distibution, topology optimisation, exciton density. Use "gauss_field_swg.txt" to calculate the exciton density. Use "TE_field.txt" to calculate the overlap of the exciton density and TE mode field.
+You can train model using the existing dataset from https://doi.org/10.5281/zenodo.21805899 (02_train_surrogate.ipynb) or use the trained model from https://doi.org/10.5281/zenodo.22077178 (03_topology_optimization.ipynb).
+Use "swg_256.npz" file to repeat the article results on the strain distribution, topology optimisation, exciton density. Use "gauss_field_swg.txt" to calculate the exciton density. Use "TE_field.txt" to calculate the overlap of the exciton density and TE mode field.
+You can use the file "overlap_integral_swg.ipynb" to get the final results.
+
 
