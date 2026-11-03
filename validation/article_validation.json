@@ -1,0 +1,159 @@
+{
+  "mode": "full",
+  "checks": [
+    {
+      "name": "Palacios convergence",
+      "actual": 1.0,
+      "expected": 1.0,
+      "rtol": 0,
+      "atol": 0,
+      "passed": true
+    },
+    {
+      "name": "Palacios strain peak (%)",
+      "actual": 1.0000224127269792,
+      "expected": 1.0,
+      "rtol": 0,
+      "atol": 0.001,
+      "passed": true
+    },
+    {
+      "name": "Branny convergence",
+      "actual": 1.0,
+      "expected": 1.0,
+      "rtol": 0,
+      "atol": 0,
+      "passed": true
+    },
+    {
+      "name": "Branny strain peak (%)",
+      "actual": 0.5764299500037203,
+      "expected": 0.576,
+      "rtol": 0,
+      "atol": 0.001,
+      "passed": true
+    },
+    {
+      "name": "Kumar convergence",
+      "actual": 1.0,
+      "expected": 1.0,
+      "rtol": 0,
+      "atol": 0,
+      "passed": true
+    },
+    {
+      "name": "Kumar strain peak (%)",
+      "actual": 0.11881965155487138,
+      "expected": 0.119,
+      "rtol": 0,
+      "atol": 0.001,
+      "passed": true
+    },
+    {
+      "name": "Linear SWG map max absolute error",
+      "actual": 1.0116668787418792e-13,
+      "expected": 0.0,
+      "rtol": 0,
+      "atol": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "A convergence",
+      "actual": 1.0,
+      "expected": 1.0,
+      "rtol": 0,
+      "atol": 0,
+      "passed": true
+    },
+    {
+      "name": "A strain peak (%)",
+      "actual": 0.14949782068034517,
+      "expected": 0.1494978206803451,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "A strain map relative L2 error",
+      "actual": 2.9571167048579163e-15,
+      "expected": 0.0,
+      "rtol": 0,
+      "atol": 0.0001,
+      "passed": true
+    },
+    {
+      "name": "B convergence",
+      "actual": 1.0,
+      "expected": 1.0,
+      "rtol": 0,
+      "atol": 0,
+      "passed": true
+    },
+    {
+      "name": "B strain peak (%)",
+      "actual": 0.3667458866609607,
+      "expected": 0.3667458866609608,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "B strain map relative L2 error",
+      "actual": 3.4290772396744625e-15,
+      "expected": 0.0,
+      "rtol": 0,
+      "atol": 0.0001,
+      "passed": true
+    },
+    {
+      "name": "5K A_peak_unstrained_ratio",
+      "actual": 23.57685589726929,
+      "expected": 23.5768558972694,
+      "rtol": 0.0001,
+      "atol": 1e-05,
+      "passed": true
+    },
+    {
+      "name": "5K peak_gain_percent",
+      "actual": 37.47472327130548,
+      "expected": 37.474723271305166,
+      "rtol": 0.0001,
+      "atol": 1e-05,
+      "passed": true
+    },
+    {
+      "name": "5K edge100_gain_percent",
+      "actual": 8.009794269214021,
+      "expected": 8.009794269214133,
+      "rtol": 0.0001,
+      "atol": 1e-05,
+      "passed": true
+    },
+    {
+      "name": "300K A_peak_unstrained_ratio",
+      "actual": 0.9758272568348836,
+      "expected": 0.9758272568348827,
+      "rtol": 0.0001,
+      "atol": 1e-05,
+      "passed": true
+    },
+    {
+      "name": "300K peak_gain_percent",
+      "actual": -0.5273079820631521,
+      "expected": -0.5273079820631965,
+      "rtol": 0.0001,
+      "atol": 1e-05,
+      "passed": true
+    },
+    {
+      "name": "300K edge100_gain_percent",
+      "actual": -0.18409633845865025,
+      "expected": -0.18409633845865025,
+      "rtol": 0.0001,
+      "atol": 1e-05,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "elapsed_seconds": 571.3653690814972
+}

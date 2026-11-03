@@ -27,7 +27,7 @@ class StrainDataset(Dataset):
         k = random.randint(0, 3)
         support = torch.rot90(support, k, dims=[1, 2])
         y = torch.rot90(y, k, dims=[1, 2])
-        # recompute coordinate grid for the new orientation
+                                                           
         H, W = support.shape[-2], support.shape[-1]
         xs = torch.linspace(x[1].min(), x[1].max(), W)
         ys = torch.linspace(x[2].min(), x[2].max(), H)
@@ -36,8 +36,8 @@ class StrainDataset(Dataset):
         return x_out, y
 
     def __getitem__(self, idx):
-        x = torch.cat([self.support[idx], self.grid_x[idx], self.grid_y[idx]], dim=0)  # (3, H, W)
-        y = self.strain[idx]  # (1, H, W)
+        x = torch.cat([self.support[idx], self.grid_x[idx], self.grid_y[idx]], dim=0)             
+        y = self.strain[idx]             
         if self.augment:
             x, y = self._augment(x, y)
         return x, y

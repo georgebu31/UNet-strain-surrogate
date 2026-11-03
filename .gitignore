@@ -1,5 +1,8 @@
-*.npz
-*.pth
-.ipynb_checkpoints/
 __pycache__/
-*.pyc
+*.py[cod]
+.venv/
+outputs/
+*.pth
+*.pt
+.DS_Store
+.ipynb_checkpoints/

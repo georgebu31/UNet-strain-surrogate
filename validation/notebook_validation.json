@@ -1,0 +1,62 @@
+[
+  {
+    "notebook": "01_linear_fdm.ipynb",
+    "status": "passed",
+    "elapsed_seconds": 9.85340428352356,
+    "code_cells": 4,
+    "outputs_redirected": true,
+    "checkpoint_override": false,
+    "peak_actual": 0.23090802425953585,
+    "peak_expected": 0.23090802426001827,
+    "peak_rtol": 1e-06,
+    "plot_verified": true
+  },
+  {
+    "notebook": "02_linear_plate.ipynb",
+    "status": "passed",
+    "elapsed_seconds": 4.069275140762329,
+    "code_cells": 4,
+    "outputs_redirected": true,
+    "checkpoint_override": false,
+    "peak_actual": 0.23090802425468432,
+    "peak_expected": 0.23090802426001827,
+    "peak_rtol": 1e-06,
+    "plot_verified": true
+  },
+  {
+    "notebook": "03_fvk.ipynb",
+    "status": "passed",
+    "elapsed_seconds": 135.1586570739746,
+    "code_cells": 4,
+    "outputs_redirected": true,
+    "checkpoint_override": false,
+    "peak_actual": 0.14949782068034517,
+    "peak_expected": 0.1494978206803451,
+    "peak_rtol": 1e-06,
+    "plot_verified": true
+  },
+  {
+    "notebook": "04_excitons.ipynb",
+    "status": "passed",
+    "elapsed_seconds": 7.145098447799683,
+    "code_cells": 4,
+    "outputs_redirected": true,
+    "checkpoint_override": false,
+    "peak_actual": 2629072259802.074,
+    "peak_expected": 2629072259802.074,
+    "peak_rtol": 1e-06,
+    "plot_verified": true
+  },
+  {
+    "notebook": "05_surrogate.ipynb",
+    "status": "passed",
+    "elapsed_seconds": 9.796368598937988,
+    "code_cells": 4,
+    "outputs_redirected": true,
+    "checkpoint_override": true,
+    "peak_actual": 0.19078978896141052,
+    "peak_expected": 0.19078978896141052,
+    "peak_rtol": 1e-06,
+    "plot_verified": true
+  }
+]

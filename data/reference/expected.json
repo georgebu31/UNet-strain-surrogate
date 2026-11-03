@@ -1,0 +1,14 @@
+{
+  "5K": {
+    "A_peak_unstrained_ratio": 23.5768558972694,
+    "peak_gain_percent": 37.474723271305166,
+    "edge100_gain_percent": 8.009794269214133,
+    "A_peak": 2629072196083.79
+  },
+  "300K": {
+    "A_peak_unstrained_ratio": 0.9758272568348827,
+    "peak_gain_percent": -0.5273079820631965,
+    "edge100_gain_percent": -0.18409633845865025,
+    "A_peak": 235093383752.11594
+  }
+}

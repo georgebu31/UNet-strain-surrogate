@@ -1,0 +1,34 @@
+{
+  "checkpoint_sha256": "6870558bda06da79c66c1dcf31620eada86adba57e1574b9bcca2acb60ed7afc",
+  "checks": [
+    {
+      "name": "r2",
+      "actual": 0.9830977799245297,
+      "expected": 0.983,
+      "atol": 0.002,
+      "passed": true
+    },
+    {
+      "name": "mae_percent",
+      "actual": 0.00282049499979193,
+      "expected": 0.0028,
+      "atol": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "correlation",
+      "actual": 0.9923711632624931,
+      "expected": 0.992,
+      "atol": 0.002,
+      "passed": true
+    },
+    {
+      "name": "peak_percent",
+      "actual": 0.19078978896141052,
+      "expected": 0.19,
+      "atol": 0.01,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

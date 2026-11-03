@@ -1,0 +1,71 @@
+{
+  "mode": "transport-only",
+  "checks": [
+    {
+      "name": "5K A_peak_unstrained_ratio",
+      "actual": 23.57685589726934,
+      "expected": 23.5768558972694,
+      "rtol": 0.0001,
+      "atol": 1e-05,
+      "passed": true
+    },
+    {
+      "name": "5K peak_gain_percent",
+      "actual": 37.47472327130546,
+      "expected": 37.474723271305166,
+      "rtol": 0.0001,
+      "atol": 1e-05,
+      "passed": true
+    },
+    {
+      "name": "5K edge100_gain_percent",
+      "actual": 8.009794269214176,
+      "expected": 8.009794269214133,
+      "rtol": 0.0001,
+      "atol": 1e-05,
+      "passed": true
+    },
+    {
+      "name": "5K A_peak",
+      "actual": 2629072259802.074,
+      "expected": 2629072196083.79,
+      "rtol": 0.0001,
+      "atol": 1e-05,
+      "passed": true
+    },
+    {
+      "name": "300K A_peak_unstrained_ratio",
+      "actual": 0.9758272568348844,
+      "expected": 0.9758272568348827,
+      "rtol": 0.0001,
+      "atol": 1e-05,
+      "passed": true
+    },
+    {
+      "name": "300K peak_gain_percent",
+      "actual": -0.5273079820631743,
+      "expected": -0.5273079820631965,
+      "rtol": 0.0001,
+      "atol": 1e-05,
+      "passed": true
+    },
+    {
+      "name": "300K edge100_gain_percent",
+      "actual": -0.18409633845865025,
+      "expected": -0.18409633845865025,
+      "rtol": 0.0001,
+      "atol": 1e-05,
+      "passed": true
+    },
+    {
+      "name": "300K A_peak",
+      "actual": 235093383740.98737,
+      "expected": 235093383752.11594,
+      "rtol": 0.0001,
+      "atol": 1e-05,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "elapsed_seconds": 7.417766094207764
+}
